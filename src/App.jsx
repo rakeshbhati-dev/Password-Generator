@@ -15,7 +15,7 @@ function App() {
     if (numAllowed) str += "0123456789"
     if (symbAllowed) str+="#$%^&*_=+!~"
 
-    for (let i = pass.length; i <passLength; i++) {
+    for (let i = 0; i <passLength; i++) {
       let char = Math.floor(Math.random() * str.length)
       pass += str.charAt(char)
     }
