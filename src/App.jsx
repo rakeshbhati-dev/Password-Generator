@@ -47,7 +47,7 @@ function App() {
             <p className='text-amber-400'>Length:- {passLength}</p>
             <input type="range"
               className='w-full'
-              name="" id="" min={8} max={100} value={passLength} onChange={(e) => setPassLength(e.target.value)} ref={passwrodRef}/>
+              name="" id="" min={8} max={32} value={passLength} onChange={(e) => setPassLength(e.target.value)} ref={passwrodRef}/>
           </div>
 
           <div className='flex items-center justify-between bg-slate-700 mt-3 px-4 py-2 rounded'>
